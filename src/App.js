@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import FilterInput from "./FilterInput";
 import Table from "./Table";
-import { getUsers } from "../../Employee_Directory/src/API";
+import { getUsers } from "./API";
 import "./App.css";
 
 function App() {
